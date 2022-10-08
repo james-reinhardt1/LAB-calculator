@@ -1,33 +1,44 @@
-body {
-  background-color: white;
+.display{
+background-color: #000000;
+color: #ffffff;
+width: 400px;
+text-align: right;
+font-family: monospace;
+}
+
+.number {
+  background-color: #d8d9db;
+  color: #000000;
+  width: 100px;
+  padding: 4%;
+}
+
+.symbol {
+  background-color: rgba(217, 149, 46, 0.972);
+  color: #ffffff;
+  width: 100px;
+}
+
+#button2 {
+  width: 200px;
+}
+
+#button5 {
+  background-color: lightgrey;
+  color: black;
+  width: 100px;
+}
+
+#button17 {
+  width: 300px;
 }
 
 .whole-calculator {
+  display: flex;
   background-color: black;
   width: 400px;
-}
-
-.display {
-  font-family: 'Indie Flower', cursive;
-}
-
-.rows.button {
-  display: flex;
-  justify-content: center;
-}
-
-.button {
-  font-size: 25px;
-  padding: 30px;
-}
-
-.display {
-  grid-column: span 4;
-  height: 75px;
-  text-align: right;
-  border: none;
-  background-color: white;
-  outline: none;
-  padding: 10px;
-  font-size: 18px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 50px;
+  margin: 0 auto;
 }
