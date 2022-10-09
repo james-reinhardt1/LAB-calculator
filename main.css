@@ -13,10 +13,26 @@ font-family: monospace;
   padding: 4%;
 }
 
+.number:hover {
+  background-color: #ebebeb;
+}
+
+.number:active {
+  background-color: #bbbcbe;
+}
+
 .symbol {
   background-color: rgba(217, 149, 46, 0.972);
   color: #ffffff;
   width: 100px;
+}
+
+.symbol:hover {
+  background-color: #dfb07e;
+}
+
+.symbol:active {
+background-color: #dd8d37;
 }
 
 #button2 {
